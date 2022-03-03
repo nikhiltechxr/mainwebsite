@@ -1,0 +1,16 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+.mainimage{
+    z-index: -56;
+    position: absolute;
+    top: 0px;
+}
+
+.freespace{
+    position: relative;
+    top: 80px;
+}
+

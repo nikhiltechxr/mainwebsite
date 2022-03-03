@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainbody.css">
+    <title>Document</title>
+     <!--css style-->
+     <link rel="stylesheet" href="header1.css">
+     <link rel="stylesheet" href="mainbody.css">
+     <!--bootstrap-->
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <!-- bootstrap grid system -->
+     <link rel="stylesheet" href="./assets/css/vendors/bootstrap.min.css" />
+     <!-- fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+     <!-- swiper -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.css" />
+     <link rel="stylesheet" href="./assets/css/main.css" />
+     <link rel="stylesheet" href="./assets/css/responsive.css" />
+ 
+</head>
+<body>
+    <img class="mainimage" src="assets/images/top-des.svg" alt="">
+
+    <div class="secondry_nav_bar">
+        <li class="secondryfeatures1"><a href="#" class="secondryfeatures2">Hackathon Result</a></li>
+        <li class="secondryfeatures1"><a href="#" class="secondryfeatures2">iHUB @ IITR Course</a></li>
+        <li class="secondryfeatures1"><a href="#" class="secondryfeatures2">FAQs</a></li>
+    </div>
+
+    <div class=freespace>
+
+
+        <div class="container">
+            <div class="row inner-banner align-items-center">
+                <div class="col-12">
+                    <!-- <div class="head-logo">
+                    <a href="index">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+                </div> -->
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+
+                    <div class="head-content">
+                        <h1>
+                            Making Quality AR-VR Learning Easy - Affordable - Accessible
+                        </h1>
+                        <p class="para">
+                            Join Our AR-VR Certification Program in Association with iHub DivyaSampark @ IIT Roorkee​
+                        </p>
+                        <!-- <a href="javascript:void(0)" class="main-btn border-btn ">
+                        REGISTER NOW
+                    </a>-->
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 offset-lg-2 col-md-12 col-sm-12 col-12">
+                    <form action="" class="head-form a-card form-control" id="myform">
+                        <h4 class="head text-center mb-30">
+                            Explore Courses
+                        </h4>
+                        <span id="error-invalid-text" class="error error-text-center"></span>
+                        <span id="success-text" class="success-text-center"></span>
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" name="email"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Please enter a valid email"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Mobile" id="contact" name="contact" pattern="[789][0-9]{9}"
+                                title="Please enter a valid number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="OTP" name="otp" id="otp-input-field" style="display: none;"
+                                class="otp-input" maxlength="4" onkeypress="if(this.value.length==4) return false;">
+                        </div>
+                        <div class="loader d-none">
+                            <div class="loader_ajax_small"></div>
+                        </div>
+                        <div class="form-group" id="resend-otp" style="display: none;">
+                            Didn't receive OTP ? <a href="javascript:void(0);" onclick="resendOTP()">Click to Resend</a>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" class="main-btn shadow-btn btn-send-otp" style="margin: auto;"
+                                onclick="checkExisting()" id="getOTPbtn">Verify Phone with OTP</button>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" class="main-btn shadow-btn btn-send-otp" onclick="verifyOTP()"
+                                style="display: none; margin: auto;" id="verifyOTPbtn">Register Now</button>
+                        </div>
+                        <!--<button type="submit" disabled class="main-btn shadow-btn btn-disabled" id="button1">
+                        Register Now
+                    </button>-->
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <div class="h-sec-container">
+        <section class="h-sec pt-0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="h-img">
+                            <img src="assets/images/h-img01.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 col-md-12 col-12">
+                        <div class="h-con">
+                            <h3 class="sec-head">
+                                OUR FLAGSHIP PROGRAM
+                            </h3>
+                            <p class="para d-none">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s
+                            </p>
+                            <ul class="pp-list">
+                                <li>
+                                    6 Week Bootcamp
+                                </li>
+                                <li>
+                                    15000 INR
+                                </li>
+                                <li>
+                                    Limited Seats
+                                </li>
+
+                            </ul>
+                            <a href="https://storage.googleapis.com/platform-media-bucket/media/Course%20Brochure%206Weeks.pdf"
+                                class="main-btn link-btn with-ico" target="_blank">
+                                <span>Download Brochure</span>
+                                <img src="assets/images/blue-arrow.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="h-sec ">
+            <img src="assets/images/c-wave-bg.svg" alt="">
+            <div class="container">
+                <div class="row align-items-center flex-md-row-reverse">
+                    <div class="col-lg-5 offset-lg-2 col-md-12 col-12">
+                        <div class="h-img">
+                            <img src="assets/images/h-img02.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-12">
+                        <div class="h-con">
+                            <h3 class="sec-head">
+                                COURSE STRUCTURE
+
+                            </h3>
+                            <p class="para d-none">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text
+                                ever since the 1500s
+                            </p>
+                            <ul class="pp-list">
+                                <li>
+                                    Create your first Unity 3D application
+                                </li>
+                                <li>
+                                    Create your first AR application
+                                </li>
+                                <li>
+                                    Learn important 3D development skills/practices
+                                </li>
+                                <li>
+                                    Upgrade your AR application and make it 360 degree rotatable
+                                </li>
+                                <li>
+                                    Create your first VR application
+                                </li>
+                                <li>
+                                    Create first-person-shooter VR game for six degree of freedom (6 DoF) controllers,
+                                    such as Oculus, HTC Vive, etc.
+                                </li>
+                            </ul>
+                            <a href="courses" class="main-btn link-btn with-ico">
+                                <span>Know More</span>
+                                <img src="assets/images/blue-arrow.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="h-sec pt-0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-12 col-12">
+                        <div class="h-img">
+                            <img src="assets/images/h-img04.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-2 col-md-12 col-12">
+                        <div class="h-con">
+                            <h3 class="sec-head">
+                                WHY US ?
+                            </h3>
+                            <p class="para d-none">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s
+                            </p>
+                            <ul class="pp-list">
+                                <li>
+                                    We are subject matter experts. We hold a patent on our soon-to-be-launched
+                                    indigenous 6 DoF Techxr controller.
+                                </li>
+                                <li>
+                                    We guarantee significant learning for 100% of the participants completing the
+                                    course.
+                                </li>
+                                <li>
+                                    We Designed & Delivered similar course for NIFT regular curriculum.
+                                </li>
+                                <li>
+                                    The Course designed by a team of IITians and vetted by IIT Roorkee Computer Science
+                                    faculty.
+                                </li>
+                                <li>
+                                    We enable hands-on learning with our 6 DoF developer kit. No need for costly
+                                    hardware such as Oculus, HTC Vive, etc.
+                                </li>
+                                <li>
+                                    We provide doubt solving support, both offline and live sessions.
+                                </li>
+                                <li>
+                                    We train students to create demonstrable MVP.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="h-sec ">
+            <img src="assets/images/c-wave-bg.svg" alt="">
+            <div class="container">
+                <div class="row align-items-center flex-md-row-reverse">
+                    <div class="col-lg-5 offset-lg-2 col-md-12 col-12">
+                        <div class="h-img">
+                            <img src="assets/images/h-img03.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-12">
+                        <div class="h-con">
+                            <h3 class="sec-head">
+                                AFTER SUCCESSFUL COMPLETION
+
+                            </h3>
+                            <p class="para d-none">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text
+                                ever since the 1500s
+                            </p>
+                            <ul class="pp-list">
+                                <li>
+                                    All candidates get Certificate by TechXR and iHUB IIT Roorkee
+                                <li>
+                                    All candidates would have completed one VR and two AR Minimum Viable Project
+                                </li>
+                                <li>
+                                    All candidates get limited placement assistance
+                                </li>
+                                <li>
+                                    Top submissions get showcased on the Techxr Developer Portal
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="projects-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="sec-head text-center">
+                        FEATURED PROJECTS
+                    </h3>
+                    <p class="sub-head blue text-center">
+                        Projects By Our Students
+                    </p>
+                    <div class="pr-grid">
+                        <div class="pr-wrap">
+                            <div class="pr-vid-wrap">
+                                <video width="100%" controls>
+                                    <source src="assets/videos/video-1.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="pr-det">
+                                <h4>Maze Runner</h4>
+                                <h6>Kshitija Rajput</h6>
+                            </div>
+                        </div>
+                        <div class="pr-wrap">
+                            <div class="pr-vid-wrap">
+                                <video width="100%" controls>
+                                    <source src="assets/videos/video-2.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="pr-det">
+                                <h4>AR Living Room</h4>
+                                <h6>Shruti Agarwal</h6>
+                            </div>
+                        </div>
+                        <div class="pr-wrap">
+                            <div class="pr-vid-wrap">
+                                <video width="100%" controls>
+                                    <source src="assets/videos/video-3.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="pr-det">
+                                <h4>Virtual Fashion Gallery</h4>
+                                <h6>Yakshi Bhardwaj</h6>
+                            </div>
+                        </div>
+                        <div class="pr-wrap">
+                            <div class="pr-vid-wrap">
+                                <video width="100%" controls>
+                                    <source src="assets/videos/video-4.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="pr-det">
+                                <h4>Car Game</h4>
+                                <h6>Ishita banati</h6>
+                            </div>
+                        </div>
+                        <div class="pr-wrap">
+                            <div class="pr-vid-wrap">
+                                <video width="100%" controls>
+                                    <source src="assets/videos/video-5.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="pr-det">
+                                <h4>AR Warrior</h4>
+                                <h6>Yash Bhoj</h6>
+                            </div>
+                        </div>
+                        <div class="pr-wrap">
+                            <div class="pr-vid-wrap">
+                                <video width="100%" controls>
+                                    <source src="assets/videos/video-6.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="pr-det">
+                                <h4>Mannequin Fashion Gallery</h4>
+                                <h6>Aanya Karnwal</h6>
+                            </div>
+                        </div>
+                        <div class="pr-wrap">
+                            <div class="pr-vid-wrap">
+                                <video width="100%" controls>
+                                    <source src="assets/videos/video-7.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="pr-det">
+                                <h4>AR Zombie</h4>
+                                <h6>Sana Randhawa</h6>
+                            </div>
+                        </div>
+                        <div class="pr-wrap">
+                            <div class="pr-vid-wrap">
+                                <video width="100%" controls>
+                                    <source src="assets/videos/video-8.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="pr-det">
+                                <h4>AR Cube Netflix</h4>
+                                <h6>Ishita Banati</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="test-sec">
+        <img src="assets/images/ft-des.svg" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="sec-head text-center">
+                        Student's Reviews
+                    </h3>
+                </div>
+                <div class="col-12">
+                    <div class="test-grid">
+                        <div class="test-wrap">
+                            <img src="assets/images/r-star.svg" alt="">
+                            <p class="para">
+                                "The course overall was a very good and amazing learning experience. I wanna thank team
+                                TechXR for all the hard-work and hours they put in with us."
+                            </p>
+                            <div class="test-det-wrap">
+                                <img src="assets/images/nakul.png" alt="">
+                                <div class="test-con">
+                                    <h4>Nakul Juneja</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="test-wrap">
+                            <img src="assets/images/r-star.svg" alt="">
+                            <p class="para">
+                                "The course was very comprehensive and TechXR made it easier for us to create Augmented
+                                and Virtual Reality experience."
+                            </p>
+                            <div class="test-det-wrap">
+                                <img src="assets/images/jyoti.png" alt="">
+                                <div class="test-con">
+                                    <h4>Jyoti Rawal</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="test-wrap">
+                            <img src="assets/images/r-star.svg" alt="">
+                            <p class="para">
+                                "It was good! The TechXR team was very supportive. Learned the basics of unity and
+                                developed experiences out of it."
+                            </p>
+                            <div class="test-det-wrap">
+                                <img src="assets/images/sakshi.png" alt="">
+                                <div class="test-con">
+                                    <h4>Sakshi Singh</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="sub-wrap">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-6 col-12">
+                <h3 class="sec-head text-center">
+                    Newsletter Subscription
+                </h3>
+                <p class="para text-center">
+                    Subscribe For TechXR Weekly Updates
+                </p>
+                <form action="">
+                    <div class="sub-inp-wrap">
+                        <div class="form-group">
+                            <input type="text" placeholder="Name@company.com">
+                        </div>
+                        <button type="submit" class="main-btn shadow-btn">
+                            Try for free
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> -->
+        </div>
+    </section>
+
+    </div>
+</body>
+</html>
