@@ -1,0 +1,93 @@
+
+<style>   
+        .root{
+            padding:0px;
+            margin: 0px;
+        }
+
+        /* @media(min-width:1024px)
+        { */
+
+        .primary_nav_var {
+            background-color: transparent;
+            height: auto;
+
+            
+            /* border: 1px solid black; */
+        }
+
+        /* .primaryfeaturesgroup1{
+            position: absolute;
+             left:2rem;
+                     } */
+
+        .primaryfeaturesgroup2{
+            position: absolute;
+            right:2rem;
+            margin-top: 0.5rem;
+             /* border: 1px solid black; */
+            }
+
+        .primaryfeatures1{
+            height: auto;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            /* border: 1px solid red; */
+            height: 3rem;
+        }
+
+        .primaryfeatures2{
+            font-size: 0.9rem;
+            /* font-family: 'Barlow', sans-serif; */
+            color: rgb(255, 255, 255);
+            padding:2px;
+            margin: right 1.5rem;;
+        }
+
+        .secondry_nav_bar{
+            position: absolute;
+            right: 2.5rem;
+            display: inline-block;
+            /* border: 1px solid greenyellow; */
+            margin:10px 20px;
+        }
+
+        .secondryfeatures1 {
+            /* border: 1px, solid red; */
+            display: inline-block;
+            list-style: none;
+        }
+
+        .secondryfeatures2 {
+            font-size: 1rem;
+            text-decoration: none;
+            color: white;
+            /* border: 1px solid black; */
+            margin-right: 1rem;
+            padding: 2px;
+        }
+
+        @media (min-width:1024px) {
+            
+
+            .headpattern {
+            background-image: url("image/top-des.svg");
+            height: 80vh;
+            width:100vw;
+            background-repeat: no-repeat;
+            /* background-size: cover; */
+        }
+    }
+
+    /* } */
+
+        @media(max-width:1024px){
+            .primary_nav_var{
+                height: 70px;
+                background-color: rgba(49, 114, 151, 0.87);
+                border:1px solid red
+            }
+        }
+
+                
+    </style>
